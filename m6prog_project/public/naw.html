@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title>
+</head>
+<body>
+    <form id="nawForm" method="post" action="nawOpslaan.php">
+        <label for="naam">Naam:</label>
+        <input type="text" name="naam">
+        <label for="email">Email:</label>
+        <input type="text" name="email">
+        <label for="straat">straat:</label>
+        <input type="text" name="straat">
+        <label for="huisnummer">huisnummer:</label>
+        <input type="text" name="huisnummer">
+        <label for="postcode">Postcode:</label>
+        <input type="text" name="postcode">
+        <input type="submit" name="submit" id="" value="Zoeken">
+    </form>
+
+    <div id="successMessage"></div>
+    <div id="errorMessage"></div>
+
+    <script defer type="text/javascript" src="assets/js/appNaw.js" defer></script>
+
+</body>
+</html>
